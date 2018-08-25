@@ -1,0 +1,46 @@
+// LICENSES AND COPYRIGHT for images used in FRUIT SMASHER LOGIC GAME
+// 
+// Fruit icons by princesseFranky: 
+// 	https://www.tumblr.com/blog/paulinefranky http://opengameart.org/content/flat-designed-fruits 	https://creativecommons.org/licenses/by/3.0/ 
+// Changes were made.
+// 
+// Graphics other than mentioned above and not created by me were available without atribution or on a public license.
+// Graphics other than mentoned above were created by me(tymski).
+// 
+// LICENSES AND COPYRIGHT regarding code: Information available in these links:
+// 
+// FPSMeter(used for debugging and performance optimisation):
+// /* FPSMeter 0.3.1 - 9th May 2013 | https://github.com/Darsain/fpsmeter */
+// 
+// Screen event handling:
+// /*! Hammer.JS - v2.0.8 - 2016-04-23
+//  * http://hammerjs.github.io/
+//  *
+//  * Copyright (c) 2016 Jorik Tangelder;
+//  * Licensed under the MIT license */
+// 
+// MD5 implementation from CRYPTO.JS
+// /*
+// CryptoJS v3.1.2
+// code.google.com/p/crypto-js
+// (c) 2009-2013 by Jeff Mott. All rights reserved.
+// code.google.com/p/crypto-js/wiki/License
+// Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+// Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.// Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation or other materials provided with the distribution.// Neither the name CryptoJS nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. 
+// */
+// 
+// MODERNIZR
+// /*! modernizr 3.5.0 (Custom Build) | MIT *
+//  * https://modernizr.com/download/?-webp-setclasses !*/
+// 
+// PIXI
+// /*!
+// * pixi.js - v4.8.1
+// * Compiled Wed, 06 Jun 2018 15:42:31 UTC
+// *
+// * pixi.js is licensed under the MIT License.
+// * http://www.opensource.org/licenses/mit-license
+// */
+// 
+// Code other than mentioned above and not created by me was available without attribution (for example CC0 creative commons license).
+// Code other than mentoned above was created by me (tymski).

@@ -1,0 +1,88 @@
+<html id="html" lang="en">
+
+<head>
+
+	<title>Fruit Smasher Logic</title>
+	<!--GoogleAnalytics-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-104551233-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+	<!--EndOfGoogleAnalytics-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<link rel="manifest" href="manifest.json">
+	<meta name="theme-color" content="#59211f">
+	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="icon" sizes="192x192" href="img/icons/icon192x192.png">
+
+	<script>startDate=performance.now();</script>
+
+	<script src="js/build.js"></script>
+
+	<link rel="stylesheet" href="css/bundle.css">
+
+
+
+</head>
+
+<body style="margin:0 auto" onload="hideOverflow()">
+
+
+	<!-- <div id="konsoleta" style="font-size: 2em;font-family: monospace;"></div>-->
+	<div id="meterWrapper">
+		<div class="meter" style="margin: 0 auto;width:80%;min-width:250px; " >
+				<span id="loading-progress-bar" style="width: 0%"></span>
+		</div>
+	</div>
+	<div align="center">
+		<div id="gameContainer" align="center">
+		    <canvas id="game-canvas" class="normal-scale"></canvas>
+		</div>
+	</div>
+	<div id="fps-meter" style="display: none"></div>
+	<div align="center" style="width:100%;margin:0 auto;">
+		<button type="buton" id="tfs" class="huge-button" style="background-color: rgb(221, 221, 221)">
+			Go Fullscreen<br>
+			<small>Click me!</small>
+		</button>
+	</div>
+	<div class="footer">
+		<a href ="https://github.com/Tymski/Fruits/wiki" >Game Wiki: HOW TO PLAY?</a> &bull; 
+		<a href ="/doc/Licenses.txt">License and copyright info.</a> &bull; 
+		<a href ="https://discordapp.com/channels/345147499876712459/345157432898486272">Leave feedback on Discord</a> &bull; 
+		<a href ="https://docs.google.com/forms/d/e/1FAIpQLSdKhtkRFEE8OzS2hJcvVdAZfdWdoTbpQlR1-949lzoUt0AeBw/viewform">Leave feedback on Google Form</a>
+	</div>
+</body>
+
+
+
+<script>
+	document.getElementById("game-canvas").oncontextmenu = function (e) { e.preventDefault(); } 
+	document.getElementById("tfs").addEventListener("click", toggleFullScreen, {passive: true});
+	if( window.mobileAndTabletcheck() ){
+		document.getElementById("tfs").style.width = gameArea.width/window.devicePixelRatio;
+	}
+	console.log("%cType here: AllStar() to get all possible stars in the game.","color: #F74444;font-size:1.5em;background-color:#340707");
+</script>
+
+
+<script>
+	let workerPath = "serviceWorkerLow.js";
+	if(window['resolution']=="high"){
+		workerPath = "serviceWorkerHigh.js";
+	}
+	if('serviceWorker' in navigator) {
+	    navigator.serviceWorker
+	    	.register(workerPath)
+	    	.then(function() { console.log("ServiceWorker registered: " + workerPath); })
+	    	.catch(function(e){ console.log("Cannot register ServiceWorker."); });
+	}
+</script>
+
+</html>

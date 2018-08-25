@@ -1,0 +1,55 @@
+{
+"frames": {
+	"apple.png": {
+		"frame": {"x":0, "y":1365, "w":683, "h":683},
+		"spriteSourceSize": {"x":0,"y":0,"w":683,"h":683},
+		"sourceSize": {"w":683,"h":683}
+	},
+	"banana.png": {
+		"frame": {"x":1366, "y":0, "w":682, "h":683},
+		"spriteSourceSize": {"x":0,"y":0,"w":682,"h":683},
+		"sourceSize": {"w":682,"h":683}
+	},
+	"cherry.png": {
+		"frame": {"x":0, "y":682, "w":683, "h":683},
+		"spriteSourceSize": {"x":0,"y":0,"w":683,"h":683},
+		"sourceSize": {"w":683,"h":683}
+	},
+	"coconut.png": {
+		"frame": {"x":683, "y":0, "w":683, "h":682},
+		"spriteSourceSize": {"x":0,"y":0,"w":683,"h":682},
+		"sourceSize": {"w":683,"h":682}
+	},
+	"kiwi.png": {
+		"frame": {"x":1366, "y":1366, "w":682, "h":682},
+		"spriteSourceSize": {"x":0,"y":0,"w":682,"h":682},
+		"sourceSize": {"w":682,"h":682}
+	},
+	"lemon.png": {
+		"frame": {"x":683, "y":1365, "w":683, "h":683},
+		"spriteSourceSize": {"x":0,"y":0,"w":683,"h":683},
+		"sourceSize": {"w":683,"h":683}
+	},
+	"orange.png": {
+		"frame": {"x":683, "y":682, "w":683, "h":683},
+		"spriteSourceSize": {"x":0,"y":0,"w":683,"h":683},
+		"sourceSize": {"w":683,"h":683}
+	},
+	"strawberry.png": {
+		"frame": {"x":0, "y":0, "w":683, "h":682},
+		"spriteSourceSize": {"x":0,"y":0,"w":683,"h":682},
+		"sourceSize": {"w":683,"h":682}
+	},
+	"watermelon.png": {
+		"frame": {"x":1366, "y":683, "w":682, "h":683},
+		"spriteSourceSize": {"x":0,"y":0,"w":682,"h":683},
+		"sourceSize": {"w":682,"h":683}
+	}
+
+},
+"meta": {
+	"image": "fruits.png",
+	"size": {"w": 2048, "h": 2048},
+	"scale": "1"
+}
+}

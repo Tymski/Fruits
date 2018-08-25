@@ -1,0 +1,60 @@
+{
+"frames": {
+	"c4.png": {
+		"frame": {"x":756, "y":786, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	},
+	"dropbomb.png": {
+		"frame": {"x":756, "y":393, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	},
+	"floatingmine.png": {
+		"frame": {"x":756, "y":0, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	},
+	"grenade.png": {
+		"frame": {"x":378, "y":786, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	},
+	"handbomb.png": {
+		"frame": {"x":1134, "y":0, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	},
+	"landmine.png": {
+		"frame": {"x":378, "y":0, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	},
+	"molotov.png": {
+		"frame": {"x":0, "y":786, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	},
+	"nuke.png": {
+		"frame": {"x":0, "y":393, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	},
+	"pipebomb.png": {
+		"frame": {"x":0, "y":0, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	},
+	"tnt.png": {
+		"frame": {"x":378, "y":393, "w":368, "h":383},
+		"spriteSourceSize": {"x":0,"y":0,"w":368,"h":383},
+		"sourceSize": {"w":368,"h":383}
+	}
+
+},
+"meta": {
+	"image": "war.png",
+	"size": {"w": 1512, "h": 1179},
+	"scale": "1"
+}
+}

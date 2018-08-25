@@ -1,0 +1,33 @@
+{
+	"short_name": "FS Logic",
+	"name": "Fruit Smasher Logic",
+	"description": "Logic game in which you have to collect all fruits from screen.",
+	"icons": 
+	[{
+	  "src": "img/icons/icon48x48.png",
+	  "type": "image/png",
+	  "sizes": "48x48"
+	},
+	{
+	  "src": "img/icons/icon96x96.png",
+	  "type": "image/png",
+	  "sizes": "96x96"
+	},
+	{
+	  "src": "img/icons/icon192x192.png",
+	  "type": "image/png",
+	  "sizes": "192x192"
+	},
+	{
+	  "src": "img/icons/icon512x512.png",
+	  "type": "image/png",
+	  "sizes": "512x512"
+	}],
+	"start_url": "index.html?launcher=true",
+	"background_color": "#59211f",
+	"theme_color": "#59211f",
+	"display": "standalone",
+	"orientation": "portrait",
+	"lang": "en",
+	"permissions": [ "http://*.tymski.pl"]
+}
