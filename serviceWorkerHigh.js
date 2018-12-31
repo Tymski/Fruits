@@ -54,7 +54,7 @@ highResAllResources = [].concat(
     highResImageFiles
 );
 
-const CACHE_NAME = "fruits_v1";
+const CACHE_NAME = "fruits_v1.01";
 
 self.addEventListener('install', function (e) {
     e.waitUntil(

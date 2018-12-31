@@ -17,7 +17,7 @@
 	<meta charset="utf-8" />
 	<link rel="manifest" href="manifest.json">
 	<meta name="theme-color" content="#59211f">
-	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta name="mobile-web-app-capable" content="yes">
 	<link rel="icon" sizes="192x192" href="img/icons/icon192x192.png">
 
@@ -27,19 +27,30 @@
 
 	<link rel="stylesheet" href="css/bundle.css">
 
-
-
 </head>
 
 <body style="margin:0 auto" onload="hideOverflow()">
 
 
 	<!-- <div id="konsoleta" style="font-size: 2em;font-family: monospace;"></div>-->
-	<div id="meterWrapper">
-		<div class="meter" style="margin: 0 auto;width:80%;min-width:250px; " >
-				<span id="loading-progress-bar" style="width: 0%"></span>
+
+	<div id="loadingLayout">
+		<div>
+			<div id="meterWrapper">
+				<div class="meter" style="margin: 0 auto;width:80%;min-width:250px; ">
+					<span id="loading-progress-bar" style="width: 0%"></span>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p class="gameTitle">Fruit<br>Smasher<br>Logic</p>
+		</div>
+		<div>
+			<p>is loading...</p>
 		</div>
 	</div>
+
+	
 	<div align="center">
 		<div id="gameContainer" align="center">
 		    <canvas id="game-canvas" class="normal-scale"></canvas>
@@ -83,6 +94,18 @@
 	    	.then(function() { console.log("ServiceWorker registered: " + workerPath); })
 	    	.catch(function(e){ console.log("Cannot register ServiceWorker."); });
 	}
+</script>
+
+<script>
+	resize();
+	loadingLayout.style.maxWidth = gameArea.width * cssScale + "px";
+	loadingLayout.style.maxHeight = gameArea.height * cssScale + "px";
+	loadingLayout.style.backgroundColor = "#E2DE75";
+	loadingLayout.style.backgroundImage = "linear-gradient(#E2DE75, #BCB173)";
+	if(isEmbedded()){
+		document.getElementsByTagName("body")[0].style.backgroundColor = "#E2DE75";
+	}
+	loadingLayout.style.fontSize = unit * 80 * cssScale + "px";
 </script>
 
 </html>
